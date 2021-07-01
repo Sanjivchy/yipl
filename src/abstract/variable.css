@@ -1,0 +1,11 @@
+:root{
+    --color-text-base:#ffffff;
+    --color-text-muted:#6a7582;
+    --color-text-header:#272D4E;
+    --color-text-link:#299EF3;
+    --color-text-darkmode:#e0e0e0;
+    --color-primaryfill:#7854F7;
+    --color-secondaryfill:#9A7DFF;
+    --color-darkfill:#3A3B3C;
+    --color--secondarybtn:#70C217;
+}

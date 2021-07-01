@@ -1,0 +1,21 @@
+@import "./base/font.css";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@import "./components/background.css";
+@import "./abstract/variable.css";
+@import "./components/curve.css";
+
+.copyright--social{
+    @apply px-12 text-lg text-gray-800 ;
+}
+#toggle:checked ~ label div.toggle-dot{
+    @apply translate-x-4;
+ }
+
+ .footer{
+    @apply dark:bg-skin-darkFill;
+ }

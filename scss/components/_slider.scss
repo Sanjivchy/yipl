@@ -1,0 +1,54 @@
+.stack{
+  position: absolute;
+  top: 15vw;
+  left: 18vw;
+  &--container {
+      left: 15vw;
+      position: relative;
+      width: 440px;
+      height: 340px;
+  }
+}
+  .card {
+      width: 600px;
+      height: 350px;
+      background-color: white;
+      border: 1px solid #ccc;
+      position: absolute;
+      transform: translateY(0);
+      animation: onTop 12s 2s ease infinite;
+      // box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      &.one {
+        left: 0;
+        top: 0;
+        z-index: 2;
+        animation-name: onTop;
+  
+    }
+    &.two {
+      left: 0;
+      top: 20px;
+      z-index: 1;
+      animation-name: onMiddle;
+    }
+    &.three {
+      left: 0;
+      top: 40px;
+      z-index: 0;
+      animation-name: onBottom;
+    }
+    
+  }
+  .card span {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    color: gray;
+    top: 35%;
+  }
+.card img{
+  margin-left: 30%;
+}

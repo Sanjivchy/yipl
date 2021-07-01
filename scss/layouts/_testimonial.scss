@@ -1,0 +1,29 @@
+.testimonial{
+    height:100vh;
+    display: none;
+    margin-top: 30px;
+    &--container{
+        position:relative;
+        width: 100%;
+        &--header{
+            width: 100%;
+          h1{
+            text-align: center;
+            width: 33.3333%;
+            margin: 0 auto;
+            font-size: 3.75rem;
+            font-weight: bold;
+            color: $color-text-header;
+          }
+        }
+    }
+    &--people{
+        position:absolute;
+        left: 10vw;
+        top: 10vh;
+    }
+}
+
+.testimonial--background{
+  background:linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
+}
