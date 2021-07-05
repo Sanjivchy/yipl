@@ -9,3 +9,27 @@
 @import './components/animation';
 @import './layouts/footers';
 @import './abstracts/responsive';
+
+
+
+
+
+.container{
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+  }
+  
+  @media screen and (max-width: 640px){
+    .container{
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 900px){
+    .container{
+      width: 33.33333%;
+    }
+  }
+  

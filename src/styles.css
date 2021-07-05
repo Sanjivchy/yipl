@@ -4,7 +4,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
+@import "./components/navigation.css";
 @import "./components/background.css";
 @import "./abstract/variable.css";
 @import "./components/curve.css";

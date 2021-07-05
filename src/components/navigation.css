@@ -1,0 +1,16 @@
+.nav-links{
+    position: relative;
+}
+.nav-links::after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.nav-links:hover::after{
+width: 100%;
+}
