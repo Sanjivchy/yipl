@@ -472,6 +472,14 @@
   margin: 20px 0;
   line-height: 22px;
   color: #ffffff;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+.footer--item__link:hover {
+  padding-left: 10px;
 }
 
 .copyright {

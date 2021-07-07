@@ -47,6 +47,12 @@
         margin:20px 0;
         line-height: 22px;
         color: $textcolorbase;
+        position: relative;
+        transition: 0.5s;
+        text-transform: capitalize;
+        &:hover{
+            padding-left: 10px;
+        }
     }
 }
 
