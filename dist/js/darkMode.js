@@ -4,8 +4,7 @@ const dark = document.querySelector('#dark');
 const dark1 = document.querySelector('#dark1');
 const dark2 = document.querySelector('#dark2');
 const dark3 = document.querySelector('#dark3');
-
-
+const dark4 = document.querySelector('#testimonial-dark');
 
 
 const toggleDarkMode =function (){
@@ -17,7 +16,13 @@ const toggleDarkMode =function (){
     ?dark.classList.add("dark")
     :dark.classList.remove("dark")
 
-    checkbox.checked?dark1.classList.remove('testimonial--background'): dark1.classList.add('testimonial--background')
+    checkbox.checked
+    ?dark4.classList.remove("testimonial-white")
+    :dark4.classList.add("testimonial-white")
+
+     checkbox.checked
+    ?dark4.classList.add("testimonial-dark")
+    :dark4.classList.remove("testimonial-dark")
 
     checkbox.checked?dark2.classList.remove('shape-fill'): dark2.classList.add('shape-fill')
     checkbox.checked?dark2.classList.add('dark--curve'): dark2.classList.remove('dark--curve')
