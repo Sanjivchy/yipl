@@ -22,4 +22,3 @@ $('.prev').click(function() {
 			$('li').removeClass('transformPrev').last().addClass('activeNow').prevAll().removeClass('activeNow');
 	setTimeout(function(){appendToList();}, 150);
 });
-

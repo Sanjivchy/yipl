@@ -17,12 +17,12 @@ const toggleDarkMode =function (){
     :dark.classList.remove("dark")
 
     checkbox.checked
-    ?dark4.classList.remove("testimonial-white")
-    :dark4.classList.add("testimonial-white")
+    ?dark4.classList.remove("testimonial-container--white")
+    :dark4.classList.add("testimonial-container--white")
 
      checkbox.checked
-    ?dark4.classList.add("testimonial-dark")
-    :dark4.classList.remove("testimonial-dark")
+    ?dark4.classList.add("testimonial-container--dark")
+    :dark4.classList.remove("testimonial-container--dark")
 
     checkbox.checked?dark2.classList.remove('shape-fill'): dark2.classList.add('shape-fill')
     checkbox.checked?dark2.classList.add('dark--curve'): dark2.classList.remove('dark--curve')
